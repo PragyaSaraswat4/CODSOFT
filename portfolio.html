@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav>
+        <div class="left">
+            <a href="#name">Pragya Saraswat</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:saraswatpragya2006@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="cv.pdf" download="cv.pdf" target="_blank" class="download">
+                <i class="fa-solid fa-download"></i>
+                <span>CV</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!-- section 1: hero -->
+        <section class="hero">
+            <div class="info">
+
+                <!-- name  -->
+                <div class="naam">
+                    <h1>Hey, I'm Pragya 👋</h1>
+                    <h4> Electrical Engineer, Developer </h4>
+                    <h4> Dancer, Painter </h4>
+                </div>
+                <!-- links of different sections  -->
+                <div class="links">
+                    <a href="#about">
+                        <i class="fa-regular fa-address-card"></i>
+                        <span>About Me</span>
+                    </a>
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contacts</span>
+                    </a>
+
+
+                </div>
+            </div>
+            <div class="image">
+                <img src="image.jpg" alt="profile pic">
+            </div>
+
+
+        </section>
+        <!-- section 2: about -->
+        <section id="about">
+            <div class="aboutme">
+                <div class="aboutinfo">
+                    <h1>About Me</h1>
+                    <p>I am an optamistic person with self disciplinary nature who knows the worth of time and tries to
+                        manage it well. I adapt very easily to the new ambience and loves to communicate with people. I
+                        have a leadership quality and can work in team as well. I am a hardworking person with a habit
+                        of prioritizing work.
+                    </p>
+                </div>
+                <div class="education">
+                    <h1>Education</h1>
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>s.no.</th>
+                                    <th>Course Name</th>
+                                    <th>Institute's Name</th>
+                                    <th>Year of Passing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Matric</td>
+                                    <td>Jaycees Public School</td>
+                                    <td>2020</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Intermediate</td>
+                                    <td>Jaycees Public School</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Bachelors</td>
+                                    <td>Galgotias College of Engineering and Technology</td>
+                                    <td>currently pursuing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 3: skills -->
+        <section id="skills">
+            <div class="myskills">
+                <div class="skillsinfo">
+                    <h1>Skills</h1>
+                    <p>I have learnt HTML, CSS and JAVASCRIPT. And also have made different projects using these
+                        languages. I know basics of C and PYHTON.
+                    </p>
+                </div>
+                <div class="cells">
+                    <div class="cell">
+                        <img src="html-logo.png" alt="html logo">
+                        <span>HTML</span>
+                    </div>
+                    <div class="cell">
+                        <img src="css-logo.png" alt="css logo">
+                        <span>CSS</span>
+                    </div>
+                    <div class="cell">
+                        <img src="javascript.png" alt="javascript logo">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="cell">
+                        <img src="c.png" alt="c logo">
+                        <span>C</span>
+                    </div>
+                    <div class="cell">
+                        <img src="python.png" alt="python logo">
+                        <span>PYTHON</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section 4: contact -->
+        <section id="contact">
+            <div class="contact">
+                <div class="contactinfo">
+                    <h1>Contact Me</h1>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="30" rows="5"></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
